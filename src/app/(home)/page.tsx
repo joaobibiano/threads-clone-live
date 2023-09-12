@@ -3,6 +3,7 @@ import LogoThreads from "@/assets/threads-logo.svg";
 import { HomeIcon, Search, PenSquare, Heart, User } from "lucide-react";
 import Link from "next/link";
 import DropdownMenuHome from "./dropdown";
+import HomePost from "./post";
 
 const menus = [
   {
@@ -53,6 +54,14 @@ export default function Home() {
 
         <DropdownMenuHome />
       </nav>
+
+      <article className="max-w-lg m-auto">
+        <section>
+          <HomePost />
+        </section>
+
+        <hr className="mt-4 h-[0.5px] opacity-20" />
+      </article>
     </main>
   );
 }
