@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 export default function HomePost() {
   return (
-    <div className="flex justify-between mx-3 items-center gap-3">
+    <div className="flex justify-between items-center gap-3">
       <Avatar>
         <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
         <AvatarFallback>CN</AvatarFallback>
